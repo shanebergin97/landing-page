@@ -1,0 +1,82 @@
+body{
+  background: rgb(255,232,209);
+  color: rgb(5,5,23);
+  font-size: 25px;
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+}
+h1{
+font-family: 'Merriweather', serif;
+color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+h2 {
+  font-family: 'Merriweather', serif;
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+}
+a {
+  color: blue;
+}
+a:hover {
+  text-decoration: underline
+  font-weight:bolder;
+  color: purple;
+}
+
+#banner{
+  text-align: center;
+  background-image: url("https://picsum.photos/200/300?image=0");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  color: white;
+}
+#banner h1 {
+  font-size: 50px;
+}
+#banner p {
+  margin-bottom: 40px;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background-color: black;
+  color: lightgrey;
+}
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+.card-white img {
+  margin-bottom: 20px;
+}
+
+.btn-blue {
+  color: white;
+  background-color: #6772e5;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+
+.btn-blue:hover {
+  background-color: #7795f8;
+  color: white;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 32px;
+}
+#footer a:hover {
+  color: white;
+}
